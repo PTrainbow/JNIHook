@@ -1,5 +1,8 @@
 # JNIHook
 
+## 或者直接使用 inlinehook 就好
+https://github.com/bytedance/android-inline-hook
+
 ## 简介
 
 JNI hook 是指: hook JNIEnv 提供的众多方法
