@@ -13,5 +13,12 @@ class NativeLib {
         fun init(){
             Log.i("NativeLib", "empty init function")
         }
+
+        fun method(vararg args: Int) :Int{
+            args.forEach {
+                Log.e("zzyhhhh", "method arg $it")
+            }
+            return 0
+        }
     }
 }
